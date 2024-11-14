@@ -1,0 +1,14 @@
+name: my_plugin
+version: '1.0-SNAPSHOT'
+main: org.zytronium.myPlugin.MyPlugin
+api-version: '1.21'
+commands:
+  nuke:
+    description: Sends a nuclear missile to the specified target player or entity
+    usage: /nuke <player name/entity UUID>
+#  launchnuke:
+#    description: Initiates a nuclear missile launch countdown and launches a nuke
+#    usage: /launchnuke <player> <delay> <countdown>
+#  testcmd:
+#    description: Test command to make sure this test plugin is working
+#    usage: /testcmd
